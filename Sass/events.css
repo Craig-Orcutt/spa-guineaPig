@@ -1,3 +1,36 @@
+/* styling for add color button */
+.blue {
+    color: blue;
+}
 
+/* styling for hulk button */
+.hulk {
+    font-size: 30px;
+}
 
-/*# sourceMappingURL=events.css.map */
+/* border for capture it button */
+.borders {
+    border: 3px solid black;
+}
+
+/* border for rounded button */
+.rounding{
+    border: 3px solid blue;
+    border-radius: 3px;
+}
+
+/* changed display to block. added margins just to see them better */
+button {
+    display: block;
+    margin: 20px;
+}
+
+/* makes first element bold and last element bold and italicized */
+.article-section:first-child{
+    font-weight: bold;
+}
+
+.article-section:last-child{
+    font-weight: bold;
+    font-style: italic;
+}
